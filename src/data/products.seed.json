@@ -1,0 +1,151 @@
+[
+  {
+    "barcode": "0031604026165",
+    "name": "Prenatal Complete Gummies",
+    "brand": "NatureRoot",
+    "category": "supplement",
+    "ingredients": ["folic acid 800 mcg", "iron 27 mg", "vitamin d 25 mcg", "dha 200 mg", "choline", "beta-carotene", "glucose syrup", "pectin", "citric acid", "natural berry flavor"],
+    "imageHint": "🤰",
+    "reasoningTemplate": "This is exactly the kind of prenatal formula obstetricians like to see — folate, iron, vitamin D, DHA and choline, with no red flags.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0300450449566",
+    "name": "Tylenol Extra Strength",
+    "brand": "Tylenol",
+    "category": "medicine",
+    "ingredients": ["acetaminophen 500 mg", "corn starch", "hypromellose", "magnesium stearate", "polyethylene glycol"],
+    "imageHint": "💊",
+    "reasoningTemplate": "For everyday aches and fever, this is the pain reliever providers reach for first at every stage.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0305730154307",
+    "name": "Advil Ibuprofen 200 mg",
+    "brand": "Advil",
+    "category": "medicine",
+    "ingredients": ["ibuprofen 200 mg", "croscarmellose sodium", "microcrystalline cellulose", "titanium dioxide", "stearic acid"],
+    "imageHint": "💊",
+    "reasoningTemplate": "This one changes with your calendar — NSAIDs like ibuprofen are treated very differently in the third trimester than earlier on.",
+    "alternatives": ["Tylenol Extra Strength"]
+  },
+  {
+    "barcode": "0362600014189",
+    "name": "Midnight Renewal Retinol Serum 0.5%",
+    "brand": "Lumière",
+    "category": "skincare",
+    "ingredients": ["water", "retinol 0.5%", "dimethicone", "glycerin", "caprylic triglyceride", "phenoxyethanol", "tocopherol"],
+    "imageHint": "🧴",
+    "reasoningTemplate": "Retinoids are the one skincare family dermatologists consistently ask pregnant patients to shelve.",
+    "alternatives": ["Glow Barrier Niacinamide Serum"]
+  },
+  {
+    "barcode": "0362600014196",
+    "name": "Glow Barrier Niacinamide Serum",
+    "brand": "Lumière",
+    "category": "skincare",
+    "ingredients": ["water", "niacinamide 10%", "hyaluronic acid", "glycerin", "zinc pca", "panthenol"],
+    "imageHint": "✨",
+    "reasoningTemplate": "A bump-friendly glow: every active in this bottle has a clean record in pregnancy and nursing.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0611269991000",
+    "name": "Cold Brew Black Coffee",
+    "brand": "Stumptown",
+    "category": "food",
+    "ingredients": ["coffee", "water"],
+    "imageHint": "☕",
+    "reasoningTemplate": "Good news first: you don't have to give this up — it's about the daily total.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0080000513403",
+    "name": "Chunk Light Tuna in Water",
+    "brand": "StarKist",
+    "category": "food",
+    "ingredients": ["tuna", "water", "vegetable broth", "salt"],
+    "imageHint": "🐟",
+    "reasoningTemplate": "Fish is genuinely good for the baby's brain — the mercury math is what needs watching.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0085000019382",
+    "name": "Cabernet Sauvignon 2021",
+    "brand": "Silver Hollow",
+    "category": "food",
+    "ingredients": ["wine", "sulfites"],
+    "imageHint": "🍷",
+    "reasoningTemplate": "This is the clearest call in the whole database — there's no established safe amount of alcohol in pregnancy.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0071249333921",
+    "name": "Salon Color Lasting Nail Lacquer",
+    "brand": "Vernis",
+    "category": "household",
+    "ingredients": ["butyl acetate", "nitrocellulose", "toluene", "formaldehyde resin", "camphor", "benzophenone-1"],
+    "imageHint": "💅",
+    "reasoningTemplate": "Classic three-free offenders — this formula still carries the old-school solvents modern polishes dropped.",
+    "alternatives": ["Breathe Free 10-Free Polish"]
+  },
+  {
+    "barcode": "0071249333938",
+    "name": "Breathe Free 10-Free Polish",
+    "brand": "Vernis",
+    "category": "household",
+    "ingredients": ["butyl acetate", "nitrocellulose", "adipic acid", "isopropyl alcohol", "stearalkonium hectorite"],
+    "imageHint": "💅",
+    "alternatives": []
+  },
+  {
+    "barcode": "0041100005373",
+    "name": "Sport Clear Sunscreen SPF 50",
+    "brand": "SunVeil",
+    "category": "skincare",
+    "ingredients": ["avobenzone 3%", "oxybenzone 6%", "octocrylene", "homosalate", "water", "glycerin"],
+    "imageHint": "🌞",
+    "reasoningTemplate": "Sunscreen itself is encouraged — it's this particular UV filter that's worth swapping out.",
+    "alternatives": ["Pure Mineral SPF 50"]
+  },
+  {
+    "barcode": "0041100005380",
+    "name": "Pure Mineral SPF 50",
+    "brand": "SunVeil",
+    "category": "skincare",
+    "ingredients": ["zinc oxide 20%", "titanium dioxide 3%", "coconut alkanes", "jojoba esters", "shea butter"],
+    "imageHint": "🌞",
+    "reasoningTemplate": "Mineral filters sit on top of the skin instead of absorbing in — the go-to recommendation during pregnancy.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0021130046026",
+    "name": "Double Crème Brie",
+    "brand": "Fromagerie Belle",
+    "category": "food",
+    "ingredients": ["brie", "pasteurized cultured milk", "cream", "salt", "enzymes"],
+    "imageHint": "🧀",
+    "reasoningTemplate": "Soft-ripened cheeses are a listeria question — and the answer hinges on pasteurization.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0016000275270",
+    "name": "Milk Flow Lactation Tea",
+    "brand": "Mother's Cup",
+    "category": "supplement",
+    "ingredients": ["fenugreek", "fennel", "chamomile", "ginger"],
+    "imageHint": "🍵",
+    "reasoningTemplate": "A nursing-era classic — traditional galactagogues with a mixed but mostly reassuring evidence base.",
+    "alternatives": []
+  },
+  {
+    "barcode": "0071121642011",
+    "name": "Deep Woods Insect Repellent",
+    "brand": "TrailGuard",
+    "category": "household",
+    "ingredients": ["deet 25%", "ethanol denatured", "fragrance"],
+    "imageHint": "🦟",
+    "reasoningTemplate": "Counterintuitive but true: DEET is recommended in pregnancy — the mosquito-borne illnesses it prevents are the real risk.",
+    "alternatives": []
+  }
+]

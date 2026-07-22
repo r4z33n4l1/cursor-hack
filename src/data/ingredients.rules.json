@@ -1,0 +1,814 @@
+[
+  {
+    "id": "acetaminophen",
+    "names": ["acetaminophen", "paracetamol", "apap"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "The first-choice pain and fever reliever throughout pregnancy and nursing.",
+    "detail": "Acetaminophen has decades of use in pregnancy and remains the pain reliever obstetricians recommend first. It crosses the placenta but has not been linked to birth defects at normal doses. Very little passes into breast milk, and it is considered compatible with nursing. Stick to labeled doses and avoid doubling up with combination cold products that also contain it.",
+    "maxSafeDose": "Up to 3,000 mg per day, short-term, unless your provider says otherwise"
+  },
+  {
+    "id": "ibuprofen",
+    "names": ["ibuprofen", "ibuprofen sodium"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "avoid", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "strong",
+    "summary": "An NSAID — timing matters: discouraged early, firmly avoided in the third trimester, fine while nursing.",
+    "detail": "Ibuprofen is an NSAID, and NSAIDs are the clearest example of stage-dependent safety. After about week 20 they can reduce the baby's amniotic fluid, and in the third trimester they can close a fetal heart vessel early, so the FDA advises against them late in pregnancy. Earlier on, occasional use is a discussion for your provider rather than an emergency. While nursing, ibuprofen is actually a top choice — almost none reaches the milk."
+  },
+  {
+    "id": "naproxen",
+    "names": ["naproxen", "naproxen sodium"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "strong",
+    "summary": "A long-acting NSAID with the same third-trimester concerns as ibuprofen.",
+    "detail": "Naproxen carries the same stage-dependent NSAID concerns as ibuprofen: possible effects on amniotic fluid after week 20 and on a fetal heart vessel in the third trimester. Because it stays in the body much longer than ibuprofen, lactation references prefer ibuprofen while nursing. Acetaminophen is the usual swap for pain relief at any stage."
+  },
+  {
+    "id": "aspirin",
+    "names": ["aspirin", "acetylsalicylic acid"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "strong",
+    "summary": "Full-dose aspirin is avoided late in pregnancy; low-dose (81 mg) is different and often prescribed.",
+    "detail": "There are two aspirin stories. Full pain-relief doses act like other NSAIDs — avoided in the third trimester and discouraged before that. Low-dose 81 mg aspirin is different: providers prescribe it on purpose to lower preeclampsia risk in some pregnancies. While nursing, occasional low doses are considered acceptable, but regular full doses are not the first choice. Follow your provider's specific instructions rather than the bottle's.",
+    "maxSafeDose": "Low-dose (81 mg) only when prescribed by your provider"
+  },
+  {
+    "id": "diclofenac-topical",
+    "names": ["diclofenac", "diclofenac sodium", "diclofenac diethylamine"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "avoid", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "A topical NSAID gel — less absorbed than pills, but the same third-trimester rule applies.",
+    "detail": "Diclofenac gel puts an NSAID through the skin. Much less reaches the bloodstream than with pills, but enough absorbs that labels apply the same rule: avoid from week 30 onward because of the fetal heart-vessel concern. Earlier in pregnancy, occasional small applications are a conversation with your provider. While nursing, very little transfers to milk — just don't apply it where the baby's skin will touch."
+  },
+  {
+    "id": "pseudoephedrine",
+    "names": ["pseudoephedrine", "pseudoephedrine hcl", "pseudoephedrine hydrochloride"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "safe", "t3": "safe", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A decongestant best skipped in the first trimester; while nursing it can lower milk supply.",
+    "detail": "Pseudoephedrine narrows blood vessels to clear congestion. A small amount of older data links first-trimester use to rare abdominal-wall defects, so most guidance says wait until the second trimester. Later in pregnancy, short-term use is generally considered fine. While nursing, the issue is different: even a single dose can measurably reduce milk supply, so many lactation consultants suggest saline spray instead."
+  },
+  {
+    "id": "phenylephrine",
+    "names": ["phenylephrine", "phenylephrine hcl", "phenylephrine hydrochloride"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "An oral decongestant with limited pregnancy data — saline or steam are easier choices.",
+    "detail": "Phenylephrine constricts blood vessels, and there is not much pregnancy safety data to lean on — which is why guidance stays cautious rather than alarmed. It also may not work very well as an oral decongestant. Saline rinses, humidifiers, and rest cover most of the same ground without the question mark. Little is expected to reach breast milk."
+  },
+  {
+    "id": "dextromethorphan",
+    "names": ["dextromethorphan", "dextromethorphan hbr", "dextromethorphan hydrobromide"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A cough suppressant considered compatible with pregnancy and nursing.",
+    "detail": "Dextromethorphan has been used for decades and studies have not linked it to birth defects. It is the cough suppressant most commonly suggested during pregnancy. Amounts in breast milk are expected to be small. Check the rest of the label, though — cold syrups often bundle it with ingredients that deserve a closer look, like alcohol or decongestants."
+  },
+  {
+    "id": "guaifenesin",
+    "names": ["guaifenesin"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "An expectorant with thin first-trimester data; fine later in pregnancy.",
+    "detail": "Guaifenesin loosens mucus so coughs clear more easily. First-trimester data is sparse — nothing alarming, just not much of it — so many providers suggest holding off until the second trimester. After that, and while nursing, it is generally considered fine. Plenty of water does much of the same job."
+  },
+  {
+    "id": "diphenhydramine",
+    "names": ["diphenhydramine", "diphenhydramine hcl", "diphenhydramine hydrochloride"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A well-studied antihistamine; while nursing it can cause drowsiness and may nudge supply down.",
+    "detail": "Diphenhydramine is one of the oldest antihistamines and has a long, reassuring pregnancy track record. While nursing, small occasional doses are acceptable, but it passes into milk enough to make some babies drowsy, and regular use of sedating antihistamines may reduce supply. Newer non-drowsy options like loratadine are usually the better nursing pick."
+  },
+  {
+    "id": "loratadine",
+    "names": ["loratadine"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A non-drowsy antihistamine considered a first choice in pregnancy and nursing.",
+    "detail": "Loratadine is one of the two antihistamines (with cetirizine) that allergy and OB guidelines name as preferred during pregnancy, backed by large studies showing no increase in birth defects. Very little reaches breast milk and it rarely causes drowsiness in mother or baby. An easy green light for seasonal allergies."
+  },
+  {
+    "id": "cetirizine",
+    "names": ["cetirizine", "cetirizine hcl", "cetirizine hydrochloride"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A preferred non-drowsy antihistamine for pregnancy and nursing.",
+    "detail": "Cetirizine, like loratadine, is a guideline-preferred antihistamine in pregnancy with solid safety data behind it. Transfer into breast milk is low and it is considered compatible with nursing. It can be mildly sedating for some people, which affects you more than the baby."
+  },
+  {
+    "id": "doxylamine",
+    "names": ["doxylamine", "doxylamine succinate"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "So well studied in pregnancy it's part of a prescription morning-sickness medicine.",
+    "detail": "Doxylamine is unusual: it is one of the best-studied medicines in all of pregnancy, because combined with vitamin B6 it is the FDA-approved treatment for morning sickness. Decades of data show no link to birth defects. While nursing it earns a mild caution — it is sedating and can make a baby drowsy, so shorter-acting options are often preferred."
+  },
+  {
+    "id": "melatonin",
+    "names": ["melatonin"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "A popular sleep aid with surprisingly little pregnancy safety data.",
+    "detail": "Melatonin is a hormone, and supplement doses raise blood levels far above what the body makes on its own. Nothing alarming has surfaced, but pregnancy and lactation safety simply has not been well studied — so the honest answer is caution, not confidence. Sleep hygiene tweaks and magnesium-rich snacks are lower-question-mark alternatives; ask your provider before continuing it."
+  },
+  {
+    "id": "bismuth-subsalicylate",
+    "names": ["bismuth subsalicylate"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "consensus",
+    "summary": "The pink stomach remedy contains a salicylate — the same family as aspirin.",
+    "detail": "Bismuth subsalicylate breaks down into a salicylate in the body, the same drug family as aspirin, so it inherits aspirin's late-pregnancy concerns. Most guidance says skip it throughout pregnancy and nursing since gentler options exist. For heartburn or upset stomach, antacids and famotidine are the usual safer route."
+  },
+  {
+    "id": "famotidine",
+    "names": ["famotidine"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A heartburn medicine considered compatible with pregnancy and nursing.",
+    "detail": "Famotidine reduces stomach acid and has reassuring pregnancy data across all trimesters — useful, since heartburn is nearly universal by the third. Amounts in breast milk are small and not expected to affect a nursing baby. Start with food tweaks and antacids; famotidine is a reasonable next step."
+  },
+  {
+    "id": "omeprazole",
+    "names": ["omeprazole", "omeprazole magnesium", "esomeprazole"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A proton-pump inhibitor with reassuring pregnancy data for stubborn heartburn.",
+    "detail": "Omeprazole has been studied in thousands of pregnancies without a signal for birth defects, and it is the proton-pump inhibitor with the most data. It is generally reserved for heartburn that antacids and famotidine can't settle. Milk transfer is minimal, and it is considered compatible with nursing."
+  },
+  {
+    "id": "docusate",
+    "names": ["docusate sodium", "docusate calcium", "docusate"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A gentle stool softener that stays in the gut — a standard pick in pregnancy.",
+    "detail": "Docusate works inside the intestines and is barely absorbed into the bloodstream, which is why it is the stool softener providers suggest first for pregnancy constipation (often iron-supplement related). It is considered compatible with nursing for the same reason. Fluids and fiber still do the heavy lifting."
+  },
+  {
+    "id": "nicotine",
+    "names": ["nicotine", "nicotine polacrilex"],
+    "verdicts": { "ttc": "avoid", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "avoid" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "Nicotine restricts blood flow to the placenta and passes readily into milk.",
+    "detail": "Nicotine narrows blood vessels, including the ones supplying the placenta, and is linked to low birth weight and preterm birth. It also concentrates in breast milk. If you smoke or vape, quitting is one of the highest-impact things you can do at any stage — and your provider can help you weigh whether medicinal nicotine replacement is a reasonable stepping stone versus continuing to smoke."
+  },
+  {
+    "id": "hydrogen-peroxide-whitening",
+    "names": ["hydrogen peroxide", "carbamide peroxide"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Teeth-whitening peroxides haven't been studied in pregnancy — most dentists say wait.",
+    "detail": "Whitening gels and strips use peroxides that can be swallowed in small amounts during treatment. There is no evidence of harm — there is simply no good pregnancy data at all, so dental groups suggest postponing elective whitening until after delivery. Pregnancy gums are also more sensitive and prone to irritation. Regular brushing, cleanings, and whitening toothpaste are all fine."
+  },
+  {
+    "id": "isotretinoin",
+    "names": ["isotretinoin", "accutane"],
+    "verdicts": { "ttc": "avoid", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "avoid" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "Oral isotretinoin is one of the strongest known causes of birth defects.",
+    "detail": "Isotretinoin (oral acne medication) causes serious birth defects and is dispensed in the US under a strict prevent-pregnancy program. It must be stopped at least a month before trying to conceive, and it is not used while nursing. If you are on it and pregnant or planning to be, call your prescriber now — there are well-trodden safe paths for managing acne in pregnancy."
+  },
+  {
+    "id": "rx-topical-retinoids",
+    "names": ["tretinoin", "retinoic acid", "adapalene", "tazarotene", "trifarotene"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "Prescription-strength vitamin A creams — dermatologists advise stopping for pregnancy.",
+    "detail": "Tretinoin, adapalene, and tazarotene are prescription-strength retinoids. Skin absorbs only a little, but because oral vitamin A derivatives are proven teratogens, dermatology guidance uniformly says pause them for pregnancy — the benefit is cosmetic and the safer swaps are good. While nursing, absorption is low and risk is considered small; many providers still suggest azelaic acid instead. Azelaic acid and glycolic acid cover most of the same skin goals."
+  },
+  {
+    "id": "retinol",
+    "names": ["retinol", "retinyl palmitate", "retinyl acetate", "retinaldehyde", "retinal", "hydroxypinacolone retinoate", "retinyl retinoate"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 3,
+    "evidence": "consensus",
+    "summary": "Over-the-counter vitamin A anti-aging ingredients — set aside during pregnancy.",
+    "detail": "Retinol and its cousins (retinyl palmitate, retinal) are vitamin A derivatives. High vitamin A exposure in pregnancy is linked to birth defects, and while a night cream delivers far less than a pill, dermatologists agree the prudent move is to pause them — the upside is purely cosmetic. While nursing, skin absorption is low and the concern is much milder; just keep it off skin the baby touches. Bakuchiol, azelaic acid, and glycolic acid are popular pregnancy-safe swaps."
+  },
+  {
+    "id": "salicylic-acid",
+    "names": ["salicylic acid", "beta hydroxy acid", "bha"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "Fine in low-strength washes and toners; high-strength peels are the real concern.",
+    "detail": "Salicylic acid is related to aspirin, which is why it gets flagged — but the dose makes the difference. Dermatology guidance considers everyday products at 2% or less acceptable in pregnancy, especially rinse-off cleansers and spot treatments. What to skip are high-percentage professional peels and covering large areas of skin. While nursing, topical use is considered fine.",
+    "maxSafeDose": "Topical products up to 2%; skip high-strength peels while pregnant"
+  },
+  {
+    "id": "benzoyl-peroxide",
+    "names": ["benzoyl peroxide"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A go-to pregnancy-safe acne treatment.",
+    "detail": "Benzoyl peroxide breaks down quickly on the skin and almost none reaches the bloodstream. It is one of the acne ingredients dermatologists actively recommend during pregnancy, when hormonal breakouts are common. It is also considered fine while nursing — just keep it off the chest area where a baby feeds."
+  },
+  {
+    "id": "hydroquinone",
+    "names": ["hydroquinone"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "A skin-lightener with unusually high absorption — the standard advice is to pause it.",
+    "detail": "Unlike most skincare, hydroquinone absorbs through skin at a high rate — around a third of the applied dose reaches the bloodstream. No harm has been shown, but with that much systemic exposure and no safety studies, guidance is to set it aside during pregnancy. Azelaic acid and vitamin C fade dark spots (including melasma, the 'pregnancy mask') with a much cleaner profile."
+  },
+  {
+    "id": "oxybenzone",
+    "names": ["oxybenzone", "benzophenone-3", "benzophenone 3"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "A chemical UV filter that absorbs into the body more than other sunscreen ingredients.",
+    "detail": "Oxybenzone shows up in blood and breast milk after use, and some studies question whether it can act weakly like a hormone. Nothing is proven harmful — but since mineral sunscreens do the same job with near-zero absorption, most pregnancy guidance simply suggests choosing zinc oxide or titanium dioxide instead. Whatever you pick, keep wearing sunscreen: pregnancy skin is extra prone to dark patches from sun."
+  },
+  {
+    "id": "chemical-uv-filters",
+    "names": ["avobenzone", "homosalate", "octisalate", "octocrylene", "octinoxate", "ethylhexyl methoxycinnamate"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Common chemical sunscreen filters — likely fine, but mineral filters are the cleaner-data choice.",
+    "detail": "Filters like avobenzone and homosalate absorb into the bloodstream in small amounts, and the FDA has asked for more safety data on all of them — not because harm was found, but because the studies were never done. For pregnancy, that uncertainty is why mineral sunscreens get the default recommendation. If a chemical sunscreen is what you have on a beach day, using it still beats a sunburn."
+  },
+  {
+    "id": "zinc-oxide",
+    "names": ["zinc oxide"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "The gold-standard pregnancy-safe sunscreen filter.",
+    "detail": "Zinc oxide sits on top of the skin and reflects UV rather than absorbing into the body — absorption is essentially nil. It is the sunscreen ingredient recommended first for pregnancy, sensitive skin, and babies alike. Daily SPF also helps prevent melasma, the dark facial patches pregnancy hormones can trigger."
+  },
+  {
+    "id": "titanium-dioxide",
+    "names": ["titanium dioxide"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A mineral UV filter and pigment that stays on the skin's surface.",
+    "detail": "Titanium dioxide is a mineral that physically blocks UV light and is not meaningfully absorbed through skin. In sunscreens and as the white coating on tablets, it raises no pregnancy or nursing concerns at normal use. Along with zinc oxide, it is the filter pregnancy guidance points to."
+  },
+  {
+    "id": "niacinamide",
+    "names": ["niacinamide", "nicotinamide", "vitamin b3"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A well-tolerated vitamin B3 derivative — safe at every stage.",
+    "detail": "Niacinamide is a form of vitamin B3 used for redness, pores, and uneven tone. It has a long safety record, no known pregnancy or nursing concerns, and it plays nicely with almost every other ingredient. If you are shelving retinol for nine months, niacinamide is one of the easiest substitutes to love."
+  },
+  {
+    "id": "hyaluronic-acid",
+    "names": ["hyaluronic acid", "sodium hyaluronate", "hydrolyzed hyaluronic acid"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A moisture-binding molecule your body already makes — safe at every stage.",
+    "detail": "Hyaluronic acid is a large water-holding molecule naturally present in skin and joints. Applied topically it barely penetrates past the surface, which is exactly how it works — and why there is nothing for pregnancy or nursing to worry about. Great for the dryness and sensitivity pregnancy skin often brings."
+  },
+  {
+    "id": "vitamin-c-topical",
+    "names": ["ascorbic acid", "l-ascorbic acid", "sodium ascorbyl phosphate", "ascorbyl glucoside", "3-o-ethyl ascorbic acid", "tetrahexyldecyl ascorbate", "vitamin c"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Brightening vitamin C is a pregnancy-safe staple.",
+    "detail": "Topical vitamin C is an antioxidant that brightens skin and fades dark spots — including pregnancy melasma — with no known risk at any stage. It is a favorite dermatologist recommendation as a retinol stand-in during pregnancy. Oral vitamin C in normal supplement amounts is likewise fine."
+  },
+  {
+    "id": "azelaic-acid",
+    "names": ["azelaic acid"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "The dermatologist favorite for acne and dark spots during pregnancy.",
+    "detail": "Azelaic acid treats acne, rosacea, and dark patches, and it is the ingredient dermatologists reach for first when a pregnant patient needs to retire her retinoid. It occurs naturally on skin, absorption is low, and pregnancy references rate it well. It is considered compatible with nursing too."
+  },
+  {
+    "id": "alpha-hydroxy-acids",
+    "names": ["glycolic acid", "lactic acid", "mandelic acid", "alpha hydroxy acid"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "Gentle exfoliating acids considered fine at everyday strengths.",
+    "detail": "Glycolic and lactic acid exfoliate the top layer of skin and are minimally absorbed at the strengths sold for home use. Pregnancy references consider them acceptable at every stage — a useful glow-restorer while stronger actives are on pause. As always, skip aggressive professional-strength peels until after delivery."
+  },
+  {
+    "id": "parabens",
+    "names": ["methylparaben", "ethylparaben", "propylparaben", "butylparaben", "isobutylparaben", "parabens"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Common preservatives with debated weak hormone-like activity — easy to avoid if you prefer.",
+    "detail": "Parabens keep products from growing mold and bacteria, and they show weak estrogen-like activity in lab studies — far weaker than the body's own hormones. Regulators still consider them safe at cosmetic levels, but some studies suggest limiting exposure during pregnancy, and paraben-free versions of almost everything exist. This is a mild, personal-preference caution, not an alarm."
+  },
+  {
+    "id": "phthalates",
+    "names": ["diethyl phthalate", "dibutyl phthalate", "dimethyl phthalate", "phthalates"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "Plasticizers linked in studies to hormone disruption — worth minimizing in pregnancy.",
+    "detail": "Phthalates make plastics flexible and help fragrances last, and several studies associate higher pregnancy exposure with effects on fetal development — enough that ACOG suggests reducing exposure where it's easy. They often hide inside the word 'fragrance,' so fragrance-free is the simplest filter. No need for panic over one product; the goal is lowering the running total."
+  },
+  {
+    "id": "formaldehyde",
+    "names": ["formaldehyde", "formalin", "methylene glycol", "quaternium-15"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "A known carcinogen found in some nail and hair products — skip it.",
+    "detail": "Formaldehyde is a recognized carcinogen, and breathing it in — the main route with nail hardeners and keratin hair treatments — is the concern for anyone, pregnant or not. Occupational studies in salon workers link heavy exposure to reproductive harm. 'Formaldehyde-free' and '3-free' nail products are everywhere now, so this is an easy ingredient to simply not buy."
+  },
+  {
+    "id": "toluene",
+    "names": ["toluene", "methylbenzene", "toluol"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "consensus",
+    "summary": "A solvent in classic nail polish — high inhaled exposure is linked to fetal harm.",
+    "detail": "Toluene is a solvent you mostly encounter by inhaling fumes. Documented harm comes from heavy exposure — solvent abuse and industrial settings — not from painting your nails once; but because it is a known developmental toxicant, pregnancy guidance says choose '3-free' polish and ventilate well. Nursing exposure from occasional use is expected to be minimal."
+  },
+  {
+    "id": "camphor",
+    "names": ["camphor"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Fine in tiny topical amounts; never ingest it while pregnant.",
+    "detail": "Camphor appears in small amounts in vapor rubs and nail polish, where topical exposure is low. The real warnings concern swallowing it — camphor is toxic if ingested and crosses the placenta — so the caution here is mostly about keeping oral products and large-area use off the table. Topical use on unbroken skin, sparingly, is generally considered acceptable."
+  },
+  {
+    "id": "clary-sage-oil",
+    "names": ["clary sage oil", "clary sage", "salvia sclarea oil"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "An essential oil midwives traditionally save for labor — skip it before term.",
+    "detail": "Clary sage has a long midwifery reputation for encouraging contractions, which is exactly why aromatherapy guidance says not to use it during pregnancy — it is traditionally reserved for labor itself, under guidance. The evidence is traditional rather than clinical, so this is a sensible-caution flag, not a proven hazard. Lavender is the usual relaxing swap."
+  },
+  {
+    "id": "rosemary-oil",
+    "names": ["rosemary oil", "rosemary leaf oil", "rosmarinus officinalis oil", "rosemary extract oil"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Culinary rosemary is fine; concentrated rosemary oil is best limited in pregnancy.",
+    "detail": "Rosemary in cooking is completely fine. The caution is for concentrated essential-oil doses — think scalp oils used heavily or oral supplements — where traditional sources flag possible uterine stimulation at high amounts. Data is thin, so guidance is simply to keep concentrated use modest and diluted. While nursing, topical use away from the breast is considered fine."
+  },
+  {
+    "id": "peppermint",
+    "names": ["peppermint oil", "peppermint leaf", "peppermint", "mentha piperita oil"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Pregnancy-friendly (it can even ease nausea); large regular amounts may lower milk supply.",
+    "detail": "Peppermint tea and small topical uses are considered fine in pregnancy, and many women find the scent settles queasiness. The nursing note is the interesting one: peppermint in large, regular amounts is traditionally used to reduce milk supply during weaning. An occasional cup is not a problem — daily strong doses are what lactation consultants suggest watching."
+  },
+  {
+    "id": "lavender-oil",
+    "names": ["lavender oil", "lavandula angustifolia oil", "lavender extract", "lavender"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "The default calming essential oil — considered fine at every stage.",
+    "detail": "Lavender is the essential oil aromatherapy references consistently rate as appropriate during pregnancy, commonly used for relaxation and sleep. Normal cosmetic and diffuser use raises no known concerns while pregnant or nursing. As with any essential oil, diluted and in moderation is the rule."
+  },
+  {
+    "id": "deet",
+    "names": ["deet", "n,n-diethyl-m-toluamide", "n,n-diethyl-meta-toluamide", "diethyltoluamide"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "CDC-endorsed for use during pregnancy — mosquito-borne illness is the bigger risk.",
+    "detail": "This one surprises people: the CDC specifically recommends EPA-registered repellents like DEET for pregnant women, because infections like Zika and West Nile are a real danger to a developing baby and DEET used as directed is not. Apply to exposed skin and clothing per the label, and wash off when back inside. It is also considered safe while nursing — just keep it off your hands-to-baby surfaces and the chest area."
+  },
+  {
+    "id": "picaridin",
+    "names": ["picaridin", "icaridin", "hydroxyethyl isobutyl piperidine carboxylate"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A well-tolerated DEET alternative, also CDC-endorsed in pregnancy.",
+    "detail": "Picaridin is an EPA-registered repellent the CDC lists as appropriate during pregnancy and nursing, with effectiveness comparable to DEET and less odor and greasiness. Protecting yourself from mosquito bites is the medically important part. Use as directed on the label."
+  },
+  {
+    "id": "acetone",
+    "names": ["acetone"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Nail polish remover fumes — fine occasionally, ventilate well.",
+    "detail": "Occasional nail-polish removal is not a documented risk; the pregnancy caution comes from studies of sustained industrial solvent exposure, which is a very different dose. Use it in a ventilated room, cap the bottle, and you have covered the practical advice. Acetone-free removers exist if you would rather skip the question entirely."
+  },
+  {
+    "id": "triclosan",
+    "names": ["triclosan", "triclocarban"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "An antibacterial the FDA removed from soaps — plain soap works better anyway.",
+    "detail": "Triclosan was banned from consumer hand soaps in the US in 2016 because makers couldn't show it was safe and effective long-term, though it lingers in some older or niche products. Studies link it to thyroid-hormone changes in animals. Plain soap and water clean just as well without the question mark."
+  },
+  {
+    "id": "hair-dye-amines",
+    "names": ["p-phenylenediamine", "ppd", "resorcinol", "ammonium hydroxide", "aminophenol"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Hair-dye chemicals are considered low risk — many providers still suggest waiting out the first trimester.",
+    "detail": "Very little hair dye absorbs through the scalp, and studies have not shown harm from normal salon or home coloring in pregnancy. Because the first trimester is when the baby's organs form, many providers suggest the simple hedge of waiting until trimester two, or using highlights that don't touch the scalp. Ventilation helps with fumes either way."
+  },
+  {
+    "id": "caffeine",
+    "names": ["caffeine", "caffeine anhydrous", "coffee", "green tea", "green tea extract", "guarana", "yerba mate", "black tea"],
+    "verdicts": { "ttc": "caution", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Fine in moderation — the pregnancy budget is about 200 mg a day.",
+    "detail": "Caffeine crosses the placenta, and a developing baby clears it very slowly, which is why ACOG sets a limit of about 200 mg a day — roughly one 12-oz coffee. Under that line, studies are reassuring; the risks appear with heavy intake. While nursing, up to about 300 mg a day is considered fine, though some babies get fussy or wakeful if mom drinks more. Remember tea, cola, energy drinks, and chocolate all count toward the total.",
+    "maxSafeDose": "Up to 200 mg per day while pregnant; about 300 mg while nursing"
+  },
+  {
+    "id": "alcohol",
+    "names": ["alcohol", "ethanol", "ethyl alcohol", "wine", "beer", "vodka", "whiskey", "rum"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "No amount of drinking alcohol has been shown to be safe in pregnancy.",
+    "detail": "Alcohol crosses the placenta freely — the baby's blood level matches yours — and no threshold has been shown to be safe, which is why every major medical body advises none during pregnancy. This is one of the few true full-stops in this app. While nursing there is more flexibility: an occasional single drink is considered compatible if you wait about two hours per drink before feeding. If cutting back is hard, that is a conversation your provider genuinely wants to have."
+  },
+  {
+    "id": "high-mercury-fish",
+    "names": ["swordfish", "king mackerel", "tilefish", "shark", "bigeye tuna", "marlin", "orange roughy"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "avoid" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "The FDA's 'do not eat' fish list — mercury accumulates in a developing brain.",
+    "detail": "These large, long-lived fish concentrate mercury, which crosses the placenta and into breast milk and can affect a developing nervous system. The FDA and EPA specifically list swordfish, king mackerel, tilefish, shark, bigeye tuna, marlin, and orange roughy as fish to avoid while pregnant or nursing. Fish itself is genuinely good for the baby — just pick low-mercury species like salmon, sardines, or shrimp instead."
+  },
+  {
+    "id": "tuna",
+    "names": ["albacore tuna", "white tuna", "yellowfin tuna", "skipjack tuna", "light tuna", "tuna", "canned tuna"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Healthy protein with a weekly cap — albacore runs higher in mercury than light tuna.",
+    "detail": "Tuna is a middle-of-the-road mercury fish: not on the avoid list, but capped. FDA guidance allows about 6 oz of albacore (white) tuna per week, or up to 12 oz of light/skipjack tuna, while pregnant or nursing. Within those servings it is a solid protein and omega-3 source. The cap exists because mercury adds up across the week, not because one sandwich is a problem.",
+    "maxSafeDose": "Albacore: up to 6 oz per week; light tuna: up to 12 oz per week"
+  },
+  {
+    "id": "low-mercury-fish",
+    "names": ["salmon", "atlantic salmon", "sockeye salmon", "wild salmon", "sardines", "anchovies", "trout", "rainbow trout", "cod", "tilapia", "shrimp", "pollock", "catfish"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Low-mercury fish are actively encouraged — 2–3 servings a week feeds the baby's brain.",
+    "detail": "Cooked salmon, sardines, shrimp, cod, and other low-mercury fish are one of the best things on a pregnancy plate: the FDA recommends 2–3 servings (8–12 oz) a week for the omega-3s that support fetal brain and eye development. The same goes for nursing. This is a green light with enthusiasm — just cook it through.",
+    "maxSafeDose": "Aim for 2–3 servings (8–12 oz) of cooked low-mercury fish per week"
+  },
+  {
+    "id": "unpasteurized",
+    "names": ["raw milk", "unpasteurized milk", "raw milk cheese", "unpasteurized cheese", "unpasteurized juice", "raw unpasteurized juice", "unpasteurized apple cider"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "Unpasteurized products can carry listeria, which is dangerous to a developing baby.",
+    "detail": "Pasteurization kills listeria, a bacterium that pregnant women are about ten times more likely to get seriously ill from — and that can reach the baby even when mom's symptoms are mild. That is why raw milk, raw-milk cheeses, and unpasteurized juice are on every avoid list from the FDA and ACOG. The pasteurized versions of the same foods are completely fine. While nursing, listeria no longer threatens the baby through milk, but raw dairy can still make you sick."
+  },
+  {
+    "id": "soft-ripened-cheese",
+    "names": ["brie", "brie cheese", "camembert", "queso fresco", "queso blanco", "blue cheese", "gorgonzola", "feta", "soft ripened cheese"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "consensus",
+    "summary": "Soft cheeses are fine if pasteurized — the label is the whole game.",
+    "detail": "Soft and soft-ripened cheeses like brie, camembert, queso fresco, and blue cheese are the classic listeria vehicles — but the risk lives almost entirely in versions made from raw milk. ACOG's advice is simple: soft cheese is okay if the label says 'made with pasteurized milk.' Check the label, and when in doubt (unlabeled cheese at a restaurant or market), skip it or cook it until bubbling."
+  },
+  {
+    "id": "deli-meat",
+    "names": ["deli meat", "deli turkey", "deli ham", "turkey breast", "sliced turkey", "sliced ham", "salami", "prosciutto", "bologna", "mortadella", "cold cuts", "lunch meat", "pepperoni", "smoked salmon", "lox", "hot dogs"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "consensus",
+    "summary": "Ready-to-eat meats can harbor listeria — heating until steaming removes the risk.",
+    "detail": "The concern with deli meats, hot dogs, and refrigerated smoked fish isn't the food itself — it's listeria, a bacterium that can grow at fridge temperatures on ready-to-eat items and is dangerous to a developing baby. The fix is easy and official: heat slices until steaming hot (165°F) and they're fine, straight-from-the-package cold is what to skip. Cured dry meats like prosciutto carry the same advice. Once you're nursing, this concern goes away."
+  },
+  {
+    "id": "raw-fish",
+    "names": ["raw tuna", "raw salmon", "sashimi", "raw fish", "raw oysters", "raw shellfish", "ceviche"],
+    "verdicts": { "ttc": "safe", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "consensus",
+    "summary": "Raw fish and shellfish are a food-poisoning risk pregnancy guidance says to skip.",
+    "detail": "Pregnancy dials down parts of the immune system, so foodborne bugs that would give you a rough day can hit harder and, with listeria, reach the baby. FDA and ACOG guidance is to skip raw fish and shellfish — sushi with cooked fillings or vegetables is the easy workaround, and the salmon in a cooked roll is genuinely good for you. Sushi is back on the menu once the baby arrives; raw fish is considered fine while nursing."
+  },
+  {
+    "id": "raw-sprouts",
+    "names": ["alfalfa sprouts", "raw sprouts", "bean sprouts", "clover sprouts", "radish sprouts", "mung bean sprouts"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "strong",
+    "summary": "Raw sprouts are on the FDA's pregnancy avoid list — bacteria live inside the seed.",
+    "detail": "Sprouts are the one vegetable with an official pregnancy warning: the warm, humid conditions seeds need to sprout are exactly what salmonella and E. coli love, and washing can't reach bacteria that grew inside the sprout. The FDA says skip raw sprouts of any kind while pregnant. Cooked until hot — in a stir-fry, for example — they're fine."
+  },
+  {
+    "id": "kombucha",
+    "names": ["kombucha"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Usually unpasteurized and always slightly alcoholic — most guidance says pause it.",
+    "detail": "Kombucha sits at the intersection of two pregnancy flags: it's typically unpasteurized (a live ferment), and fermentation produces trace alcohol — commercial brews stay under 0.5%, but home brews can drift higher. Neither is dramatic, but together most guidance lands on 'skip it for now.' Pasteurized yogurt and kefir scratch the probiotic itch without the question marks."
+  },
+  {
+    "id": "aspartame",
+    "names": ["aspartame"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Considered safe at normal intake during pregnancy and nursing.",
+    "detail": "Aspartame has been studied for decades, and regulators including the FDA consider it safe during pregnancy and nursing at typical intakes — a diet soda is nowhere near the acceptable daily limit. The one true exception is the rare genetic condition PKU, where phenylalanine must be restricted. Note that many diet drinks pair it with caffeine, which has its own budget."
+  },
+  {
+    "id": "saccharin",
+    "names": ["saccharin", "sodium saccharin"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "An older sweetener that crosses the placenta — other sweeteners have cleaner data.",
+    "detail": "Saccharin is considered safe for the general population, but it crosses the placenta and clears slowly from fetal tissue, and the pregnancy-specific data is old and thin. No harm is established — this is a 'why not choose differently' flag, since sucralose and aspartame have tidier records. It is considered compatible with nursing."
+  },
+  {
+    "id": "liver",
+    "names": ["beef liver", "chicken liver", "liver", "liver pate", "pork liver", "cod liver oil"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 2,
+    "evidence": "consensus",
+    "summary": "Liver is extremely rich in preformed vitamin A — a small serving can exceed the pregnancy cap.",
+    "detail": "Liver is the most concentrated food source of preformed vitamin A — a single 3-oz serving of beef liver can carry several times the pregnancy upper limit, and high vitamin A early in pregnancy is linked to birth defects. That's why guidance says avoid it in the first trimester and keep it rare afterward. Cod liver oil counts too; regular fish oil doesn't. While nursing, normal portions are fine."
+  },
+  {
+    "id": "ginger",
+    "names": ["ginger", "ginger root", "ginger extract", "ginger root extract"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "Safe — and one of the best-studied natural remedies for morning sickness.",
+    "detail": "Ginger is that rare herbal with actual clinical trials behind it: studies show it eases pregnancy nausea, and ACOG lists it as a first-line option for morning sickness. Food and tea amounts are considered safe at every stage. Very high supplement doses are where to check with your provider, mainly because of mild blood-thinning effects.",
+    "maxSafeDose": "Up to about 1 g dried ginger per day for nausea"
+  },
+  {
+    "id": "chamomile",
+    "names": ["chamomile", "chamomile flowers", "chamomile extract", "matricaria recutita"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "An occasional cup is likely fine; regular strong chamomile lacks pregnancy safety data.",
+    "detail": "Chamomile is gentle by reputation, but herbal teas aren't regulated like medicines and pregnancy data is thin — a few sources flag possible uterine effects with heavy, regular use. An occasional cup is unlikely to matter; daily strong brews are where guidance suggests moderation. Ginger and rooibos teas have cleaner pregnancy records if tea is your ritual."
+  },
+  {
+    "id": "licorice-root",
+    "names": ["licorice root", "licorice", "licorice extract", "glycyrrhizin", "glycyrrhiza glabra"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "Regular black licorice in pregnancy has been linked to effects on the baby's development.",
+    "detail": "The glycyrrhizin in real licorice affects cortisol handling, and Finnish studies following children found that heavy licorice consumption in pregnancy was associated with developmental differences. An occasional piece of candy is not the issue — regular, large amounts are. Many 'licorice' candies are actually anise-flavored with no real licorice; the ingredient list tells you."
+  },
+  {
+    "id": "vitamin-a-high-dose",
+    "names": ["vitamin a palmitate", "vitamin a acetate", "preformed vitamin a", "vitamin a"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 3,
+    "evidence": "strong",
+    "summary": "High-dose preformed vitamin A supplements are a known cause of birth defects.",
+    "detail": "Preformed vitamin A (retinyl palmitate or acetate in supplements) is proven to cause birth defects at high doses — the concern is real and dose-dependent, with the cap set at 10,000 IU (3,000 mcg RAE) a day from all sources. Standalone high-dose vitamin A softgels are the products to put back on the shelf; the small amounts fortifying milk or cereal are fine. Good prenatals sidestep the issue by using beta-carotene, which the body converts only as needed.",
+    "maxSafeDose": "Under 10,000 IU (3,000 mcg RAE) per day from all sources; prefer beta-carotene"
+  },
+  {
+    "id": "beta-carotene",
+    "names": ["beta-carotene", "beta carotene", "provitamin a", "mixed carotenoids"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "The safe form of vitamin A — your body converts only what it needs.",
+    "detail": "Beta-carotene is the plant precursor to vitamin A, and the body converts it on demand — which means it can't build up to the toxic levels that make preformed vitamin A risky in pregnancy. It's the form quality prenatal vitamins use, and eating carotene-rich foods like carrots and sweet potatoes is unreservedly good. Safe at every stage."
+  },
+  {
+    "id": "folic-acid",
+    "names": ["folic acid", "folate", "l-methylfolate", "methylfolate", "5-methyltetrahydrofolate", "calcium l-methylfolate"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Not just safe — actively recommended before and during pregnancy.",
+    "detail": "Folic acid is the single most evidence-backed supplement in this app: taken before conception and through early pregnancy, it sharply lowers the risk of neural tube defects like spina bifida. CDC guidance is 400–800 mcg daily for anyone who could become pregnant, and it remains beneficial while nursing. Seeing it on a label is a good sign, not a concern.",
+    "maxSafeDose": "400–800 mcg daily is the standard recommendation"
+  },
+  {
+    "id": "dha-fish-oil",
+    "names": ["dha", "docosahexaenoic acid", "epa", "eicosapentaenoic acid", "fish oil", "omega-3", "omega-3 fatty acids", "algal oil"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Omega-3s support the baby's brain and eye development — encouraged at every stage.",
+    "detail": "DHA is a building block of the fetal brain and retina, and both pregnancy and lactation guidelines encourage getting it from low-mercury fish or a purified supplement. Fish oil supplements are molecularly distilled, so mercury isn't the concern it is with whole large fish. Note the one exception: cod liver oil, which carries high preformed vitamin A — plain fish oil or algal DHA is the clean choice."
+  },
+  {
+    "id": "iron",
+    "names": ["iron", "ferrous sulfate", "ferrous fumarate", "ferrous gluconate", "iron bisglycinate", "carbonyl iron"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A pregnancy staple — blood volume grows and iron needs nearly double.",
+    "detail": "Pregnancy expands your blood volume by almost half, and iron demand rises with it — which is why it's in every prenatal and why providers screen for anemia. Standard supplement doses are safe and often necessary; constipation is the common side effect, managed with fluids, fiber, or a gentler form like bisglycinate. Keep any iron bottle well away from small children — accidental overdose is dangerous for them."
+  },
+  {
+    "id": "vitamin-d",
+    "names": ["vitamin d", "vitamin d3", "cholecalciferol", "vitamin d2", "ergocalciferol"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Safe and commonly needed — it builds the baby's bones alongside yours.",
+    "detail": "Vitamin D supports the baby's bone development and immune system, and low levels are common enough that many providers test for it. Standard supplement doses (600–2,000 IU daily) are safe throughout pregnancy and nursing — nursing mothers are often advised to supplement since breast milk runs low in vitamin D. Mega-doses beyond that range are a provider conversation."
+  },
+  {
+    "id": "choline",
+    "names": ["choline", "choline bitartrate", "phosphatidylcholine"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "An under-appreciated nutrient for the baby's brain — good to see on a prenatal label.",
+    "detail": "Choline supports fetal brain and spinal-cord development, and surveys show most pregnant women fall short of the 450 mg daily target. It's a marker of a thoughtful prenatal formula, and eggs are the best food source. Safe through pregnancy and nursing at standard doses."
+  },
+  {
+    "id": "cbd",
+    "names": ["cbd", "cannabidiol", "hemp extract", "full spectrum hemp extract", "broad spectrum hemp extract"],
+    "verdicts": { "ttc": "avoid", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "avoid" },
+    "severity": 3,
+    "evidence": "consensus",
+    "summary": "The FDA strongly advises against CBD during pregnancy and nursing.",
+    "detail": "The FDA's position on CBD in pregnancy and nursing is an unusually direct 'do not use': cannabinoids cross the placenta and appear in breast milk, animal data shows developmental effects, and unregulated products often contain THC or contaminants the label doesn't mention. Whatever CBD is being used for — sleep, anxiety, pain — there are studied alternatives your provider can offer."
+  },
+  {
+    "id": "ashwagandha",
+    "names": ["ashwagandha", "withania somnifera", "ashwagandha root", "ashwagandha extract"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "Traditional sources flag this stress herb as a pregnancy no — data is thin, so err safe.",
+    "detail": "Ashwagandha is popular for stress, but traditional herbal references classify it as an herb to avoid in pregnancy, with some sources citing possible miscarriage risk at high doses. Modern safety studies simply don't exist, and for an optional supplement, no-data means no. Nursing data is equally sparse — most lactation references suggest skipping it there too."
+  },
+  {
+    "id": "fenugreek",
+    "names": ["fenugreek", "fenugreek seed", "fenugreek extract", "trigonella foenum-graecum"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "The classic milk-supply herb — evidence is genuinely mixed, and it can stimulate the uterus.",
+    "detail": "Fenugreek wears two hats. In pregnancy, supplement-level doses can stimulate the uterus, so guidance says keep it to cooking amounts only. While nursing, it's the most famous galactagogue — yet trials are mixed: some parents see a supply boost, a few see a drop, and tummy upset (in mom or baby) plus a maple-syrup body odor are common. If you try it, treat it as an experiment with your lactation consultant in the loop, alongside the things that reliably work: frequent effective emptying of the breast."
+  },
+  {
+    "id": "fennel",
+    "names": ["fennel", "fennel seed", "fennel extract", "foeniculum vulgare"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "A traditional nursing-tea herb with estrogen-like compounds — food amounts are fine.",
+    "detail": "Fennel in food is fine at any stage. Concentrated fennel — in supplements and strong teas — contains estragole and estrogen-like compounds, which is why pregnancy references say stick to culinary amounts. As a nursing galactagogue its evidence is thin, and there are case reports of trouble when babies were given fennel preparations directly. Moderation is the whole message."
+  },
+  {
+    "id": "sage",
+    "names": ["sage", "sage leaf", "sage extract", "salvia officinalis"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "caution" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Cooking sage is fine; concentrated sage can reduce milk supply — it's a traditional weaning herb.",
+    "detail": "Sage on your roast chicken is a non-issue. Concentrated sage (teas, supplements) contains thujone, which pregnancy references cap at food amounts, and it has a long traditional use for drying up milk during weaning — the opposite of what most nursing mothers want. If you're building supply, sage tea is the herb to skip; if you're weaning, that same tradition is why it shows up in weaning blends."
+  },
+  {
+    "id": "black-cohosh",
+    "names": ["black cohosh", "cimicifuga racemosa", "actaea racemosa"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "avoid" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "A hormone-active herb that can stimulate the uterus — not for pregnancy or nursing.",
+    "detail": "Black cohosh acts on hormone pathways and can stimulate uterine contractions — it has even been used (inappropriately, outside medical care) to attempt labor induction. Herbal and obstetric references agree it doesn't belong in pregnancy, and with no lactation safety data and hormone activity, nursing references say skip it too."
+  },
+  {
+    "id": "red-raspberry-leaf",
+    "names": ["red raspberry leaf", "raspberry leaf", "rubus idaeus leaf"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "The 'labor prep' tea — traditionally saved for the third trimester, not early pregnancy.",
+    "detail": "Red raspberry leaf mildly tones uterine muscle, which is exactly why midwives traditionally recommend it near term and why guidance says skip it in early pregnancy. Trials on whether it actually shortens labor are inconclusive but reassuring on safety in the third trimester. If you're curious, it's a classic ask-your-midwife item — and it's considered fine while nursing."
+  },
+  {
+    "id": "st-johns-wort",
+    "names": ["st john's wort", "st. john's wort", "hypericum perforatum"],
+    "verdicts": { "ttc": "caution", "t1": "avoid", "t2": "avoid", "t3": "avoid", "nursing": "caution" },
+    "severity": 2,
+    "evidence": "limited",
+    "summary": "An herbal antidepressant with drug interactions and thin pregnancy data.",
+    "detail": "St John's wort interacts with many medicines (including making some contraceptives fail — relevant when trying to conceive) and has too little pregnancy safety data to lean on. Small amounts reach breast milk, with reports of infant drowsiness or colic. Mood in pregnancy and postpartum deserves real support — your provider has better-studied options, and asking is always the right move."
+  },
+  {
+    "id": "biotin",
+    "names": ["biotin", "vitamin b7"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "A B vitamin common in hair and nail supplements — fine at normal doses.",
+    "detail": "Biotin is a water-soluble B vitamin and standard supplement doses are considered safe in pregnancy and nursing — it's included in many prenatals. One practical note: very high biotin doses can distort certain lab tests (including thyroid panels), so mention it to your provider before blood work."
+  },
+  {
+    "id": "probiotics",
+    "names": ["lactobacillus", "lactobacillus rhamnosus", "lactobacillus acidophilus", "bifidobacterium", "bifidobacterium lactis", "probiotic blend", "live active cultures"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "Common probiotic strains are considered safe in pregnancy and nursing.",
+    "detail": "Lactobacillus and Bifidobacterium strains — the ones in yogurt and mainstream probiotic supplements — have been used in pregnancy studies without safety signals. They're considered fine at every stage. The fermented-food route (pasteurized yogurt, kefir) gets you there too."
+  },
+  {
+    "id": "collagen",
+    "names": ["collagen", "hydrolyzed collagen", "collagen peptides", "bovine collagen", "marine collagen"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Essentially a protein powder — no specific pregnancy concerns known.",
+    "detail": "Collagen peptides are just processed protein, digested like any other. There are no pregnancy-specific studies, but there's also no mechanism for concern — it breaks down into ordinary amino acids. Treat it as part of your protein intake. Choose reputable brands with third-party testing, as with any supplement."
+  },
+  {
+    "id": "magnesium",
+    "names": ["magnesium", "magnesium glycinate", "magnesium citrate", "magnesium oxide", "magnesium bisglycinate"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "Safe at supplement doses — often used for leg cramps and sleep in pregnancy.",
+    "detail": "Magnesium at normal supplement doses (up to about 350 mg from supplements) is safe in pregnancy and commonly suggested for leg cramps, constipation, and sleep. It's compatible with nursing too. Very high doses cause loose stools long before anything serious — your gut enforces the limit.",
+    "maxSafeDose": "Up to 350 mg per day from supplements"
+  },
+  {
+    "id": "melamine-free-vitamin-c-oral",
+    "names": ["vitamin c oral", "ascorbic acid 500", "ester-c"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "Oral vitamin C at supplement doses is safe and routinely included in prenatals.",
+    "detail": "Vitamin C supports tissue growth and iron absorption, and standard doses are safe throughout pregnancy and nursing — the target is about 85 mg daily while pregnant, easily met by diet or a prenatal. Mega-doses above 2,000 mg daily are the only place to pause and ask your provider.",
+    "maxSafeDose": "Up to 2,000 mg per day"
+  },
+  {
+    "id": "artificial-colors",
+    "names": ["fd&c red 40", "fd&c yellow 5", "fd&c yellow 6", "fd&c blue 1", "red 40 lake", "yellow 5 lake", "blue 1 lake"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "consensus",
+    "summary": "FDA-approved food dyes — no established pregnancy risk at normal intake.",
+    "detail": "Certified food colorings like Red 40 and Yellow 5 are approved at the levels used in foods and medicines, and no pregnancy-specific risk has been established. They appear in tiny amounts in tablet coatings and candies. If you prefer to minimize them, that's a fine personal choice — but there's no medical flag here."
+  },
+  {
+    "id": "sucralose",
+    "names": ["sucralose"],
+    "verdicts": { "ttc": "safe", "t1": "safe", "t2": "safe", "t3": "safe", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "strong",
+    "summary": "A well-studied sweetener considered safe in pregnancy and nursing.",
+    "detail": "Sucralose passes through the body largely unabsorbed and has solid safety data at typical intakes, with FDA approval covering pregnancy. Small amounts appear in breast milk without known effects. As with diet drinks generally, the caffeine that often rides along is the thing to count."
+  },
+  {
+    "id": "sodium-nitrite",
+    "names": ["sodium nitrite", "sodium nitrate", "potassium nitrite"],
+    "verdicts": { "ttc": "safe", "t1": "caution", "t2": "caution", "t3": "caution", "nursing": "safe" },
+    "severity": 1,
+    "evidence": "limited",
+    "summary": "Curing salts in processed meats — fine occasionally, worth moderating.",
+    "detail": "Nitrites preserve cured meats and are safe at regulated levels; the mild pregnancy caution reflects general dietary advice to moderate processed meat rather than a specific fetal risk. Practically, the listeria question on ready-to-eat deli meat matters more than the nitrite. An occasional hot dog — heated until steaming — is fine."
+  }
+]

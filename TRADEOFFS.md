@@ -97,6 +97,30 @@ Newest phases at the bottom. Referenced from spec.md.
 
 ---
 
+## Phase 2 — The Speed Pivot (full app, one pass)
+
+### 17. Hand-built screens in one pass instead of parallel screen agents
+- **Chose:** cut the phase plan; one person (me) wrote shell, tabs, Home, History, Scan, Analyzing, Verdict, Onboarding directly.
+- **Gave up:** search screen, profile screen, ingredient form-sheet route, Skia laser (plain Reanimated line instead), the 900ms morph transition (crossfade instead).
+- **Why:** the goal shifted to "shows beautiful UI, works now." Every cut item is additive later; nothing structural blocks it.
+
+### 18. Mini-engine (~120 lines) over the spec's full engine module set
+- **Chose:** one `src/engine/index.ts`: normalize → whole-token alias match → worst-ingredient-wins per stage → honesty rule. Kept the killed agent's 89 real ingredient rules.
+- **Gave up:** separate matcher/verdict/reasoning modules, fuzzy matching, the test harness.
+- **Why:** the 89-rule database is the value; the algorithm around it only has to be correct for the seeded labels. Verified by simulation across all 15 seed products × 5 stages — the Advil caution→avoid→safe arc works.
+
+### 19. Benign-filler recognition list inside the engine
+- **Chose:** ~55 common excipients (water, glycerin, hypromellose…) count as "recognized, no finding"; fatty alcohols get rewritten so "cetyl alcohol" can never match the drinking-alcohol rule.
+- **Gave up:** database purity — fillers live in code, not in the rules JSON.
+- **Why:** without it the honesty rule marked Tylenol "unknown" (corn starch isn't in the DB) and nail polish matched "alcohol" via isopropyl alcohol. Both were demo-killing wrong answers.
+
+### 20. Ephemeral scan-session handoff instead of route-param serialization
+- **Chose:** a module-level `stashAnalysis`/`takeAnalysis` pair; verdict re-runs the engine locally when opened cold from History.
+- **Gave up:** deep-linkable full analysis state.
+- **Why:** `AnalysisResult` is too rich for URL params; the engine is deterministic and instant, so recompute-on-open is free.
+
+---
+
 ## Tooling — Expo Skills adopted mid-build
 - **Chose:** installed the official `expo/skills` set (23 skills) into `.claude/skills/`; all subsequent agents are steered to read the relevant skill references (`expo-router` tabs/sheets/zoom-transitions, `expo-native-ui` animations/visual-effects/icons/media) before writing screen code.
 - **Why:** SDK 57 APIs drift from model training data (already bitten once by `glassEffectStyle` naming); Expo's own instructional files are the ground truth and are versioned with the SDK.

@@ -12,23 +12,16 @@ export interface DemoScriptEntry {
   label: string;
 }
 
-/**
- * Hero barcodes for the 3-minute demo, in run order.
- *
- * PLACEHOLDER LIST — the data workstream owns products.seed.json; once its
- * hero products land, replace these barcodes with the real ones from the
- * seed (they must exist there for the simulator to resolve). Use
- * `getDemoScript()` below, which already filters to seed-backed entries.
- */
+/** Hero barcodes for the 3-minute demo, in run order (all seed-backed). */
 export const DEMO_SCRIPT: DemoScriptEntry[] = [
-  { barcode: '0769915190302', label: 'The Ordinary Retinol 0.5% (the cold open — Avoid)' },
-  { barcode: '0300450449108', label: 'Tylenol Extra Strength (green relief moment)' },
-  { barcode: '0611269991000', label: 'Red Bull 8.4oz (caffeine dose math)' },
+  { barcode: '0362600014189', label: 'Retinol Serum 0.5% (the cold open — Avoid)' },
+  { barcode: '0300450449566', label: 'Tylenol Extra Strength (green relief moment)' },
+  { barcode: '0611269991000', label: 'Cold Brew Coffee (caffeine dose math)' },
   { barcode: '0305730154307', label: 'Advil Ibuprofen (verdict flips by trimester)' },
-  { barcode: '0769915193657', label: 'The Ordinary Niacinamide 10% (safe skincare)' },
-  { barcode: '0016500535706', label: 'One A Day Prenatal (safe + encouraged)' },
-  { barcode: '0080000513397', label: 'StarKist Albacore Tuna (mercury caution)' },
-  { barcode: '0850016859969', label: 'CBD gummies (avoid — strong close)' },
+  { barcode: '0362600014196', label: 'Niacinamide Serum (safe skincare swap)' },
+  { barcode: '0031604026165', label: 'Prenatal Gummies (safe + encouraged)' },
+  { barcode: '0080000513403', label: 'Chunk Light Tuna (mercury caution)' },
+  { barcode: '0021130046026', label: 'Double Crème Brie (listeria nuance)' },
 ];
 
 /**
