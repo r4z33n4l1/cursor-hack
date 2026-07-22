@@ -36,3 +36,67 @@ Newest phases at the bottom. Referenced from spec.md.
 - **Chose:** the app lives at the repo root as the teammate laid it out.
 - **Gave up:** room for a future real backend package alongside.
 - **Why:** hackathon. `npx expo start` from the root, no workspace config, no path re-plumbing. The "backend" is `src/services` by design (spec §Fake Backend), so a package split adds ceremony with zero payoff this week.
+
+---
+
+## Phase 1A — Design System ("Lavender Glass")
+
+### 7. StreamingText renders per-word `Animated.Text` in a wrapping row, not one `<Text>` with a growing substring
+- **Chose:** each word is its own animated node (fade + 4px rise, ~38ms cadence with jitter).
+- **Gave up:** native text justification/kerning across the paragraph.
+- **Why:** iOS can't apply transforms to fragments inside a single `<Text>`; the per-word rise is the whole "LLM streaming" illusion. Mitigated with uniform spacing and matched lineHeight. Tap-to-complete included so demo timing never blocks on the animation.
+
+### 8. `useTheme()` returns two prebuilt frozen Theme objects (light/dark), never built per render
+- **Chose:** stable referential identity per scheme.
+- **Gave up:** per-component theme overrides.
+- **Why:** themes end up in dep arrays and memo comparisons everywhere; a fresh object per render would silently defeat all of it.
+
+### 9. Glass fallback approximates, never imitates
+- **Chose:** on non-iOS-26 the `Glass` wrapper is `BlurView` + an 8–14% lavender wash; `tint='clear'` lowers blur to 60% and drops the wash. Hairline borders live in `GlassCard`, not `Glass`.
+- **Gave up:** pixel-parity with real Liquid Glass on old devices.
+- **Why:** chasing parity with stacked borders/gradients on the base wrapper would force every hint pill and chrome bar into a bordered look. The demo device is iOS 26; the fallback just has to look intentional.
+
+### 10. Haptics are semantic-only (`lockOn`, `verdictSafe`, `tick`…), no raw impact passthrough
+- **Chose:** a closed map in `src/lib/haptics.ts`; `verdictUnknown` is a soft impact rather than a notification haptic.
+- **Gave up:** ad-hoc flexibility at call sites.
+- **Why:** keeps every haptic greppable and on-spec; an error-style buzz on "unknown" would overstate a result whose copy is deliberately hopeful. Haptic fires on press-in (iOS system feel), accepting slight over-fire on cancelled presses.
+
+### 11. Aurora background accepts 3 tiny per-frame allocations
+- **Chose:** one shared derived `vec()` per blob feeding both `Circle.c` and `RadialGradient.c`; 3 draw calls total, 22–30s drift loops, `paused` prop for off-screen/Reduce Motion.
+- **Gave up:** a zero-allocation Group-transform approach.
+- **Why:** the transform approach allocates a transform array per frame anyway, and sharing one point keeps gradient and shape perfectly locked.
+
+---
+
+## Phase 1C — Fake Backend + Stores
+
+### 12. Barcode-seeded jitter (mulberry32) instead of `Math.random` for pipeline cadence
+- **Chose:** each product's analyze rhythm is deterministic per barcode, jittered across events.
+- **Gave up:** true randomness.
+- **Why:** the demo is rehearsed. The same product should feel identical on every run-through, while different products still have organically different rhythms.
+
+### 13. Triangular latency distribution (280–900ms, mode ~400ms)
+- **Chose:** two lines of math over a uniform range.
+- **Gave up:** nothing meaningful.
+- **Why:** real networks cluster near a typical latency with a believable slow tail; uniform delays read as fake.
+
+### 14. Abandonable `sleep` over AbortController-wired timers
+- **Chose:** cancelled analyze generators leave a timer that resolves into the void and does nothing.
+- **Gave up:** theoretical timer-precision hygiene.
+- **Why:** meets the no-leaked-work rule (backing out of a scan does nothing after cancellation) without global timer bookkeeping.
+
+### 15. Demo mode disables live Open Food Facts lookups entirely
+- **Chose:** `demoMode` forces the seed-only path; a settings toggle re-enables live lookups for the "it actually works" beat.
+- **Gave up:** live-network wow-factor inside the scripted demo.
+- **Why:** never gamble on venue Wi-Fi mid-demo. The live call is a deliberate, controlled moment, not a default risk.
+
+### 16. Engine accessed via a lazy runtime bridge during parallel build
+- **Chose:** `src/services/engine-bridge.ts` guards `@/engine` access with an honest all-unknown fallback.
+- **Gave up:** direct static imports (temporarily).
+- **Why:** services and engine were built concurrently by different agents; the bridge let services typecheck standalone. To be collapsed to direct imports at integration.
+
+---
+
+## Tooling — Expo Skills adopted mid-build
+- **Chose:** installed the official `expo/skills` set (23 skills) into `.claude/skills/`; all subsequent agents are steered to read the relevant skill references (`expo-router` tabs/sheets/zoom-transitions, `expo-native-ui` animations/visual-effects/icons/media) before writing screen code.
+- **Why:** SDK 57 APIs drift from model training data (already bitten once by `glassEffectStyle` naming); Expo's own instructional files are the ground truth and are versioned with the SDK.
